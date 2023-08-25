@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <form action="#" method="post">
+            <h1>To Do Manager</h1>
+            <div class="input_field">
+                <label for="task">Task:-</label>
+                <input type="text" name="" id="task" required>
+            </div>
+            <div class="input_field">
+                <label for="Deadline">Deadline:-</label>
+                <input type="date" name="" id="Deadline" required>
+            </div>
+            <div class="input_field">
+                <label for="Priority">Priority:-</label>
+                <select name="" id="Priority" required>
+                    <option value="">none</option>
+                    <option value="Low" >Low</option>
+                    <option value="Medium" >Medium</option>
+                    <option value="High" >High</option>
+                </select>
+            </div>
+            <div class="input_field">
+                <label for="Label">Label:-</label>
+                <input type="text" name="" id="Label" required>
+            </div>
+            <div class="btn">
+                <input type="submit" value="ADD" id="btn">
+            </div>
+        </form>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Task</th>
+                    <th>Priority</th>
+                    <th>Deadline</th>
+                    <th>Label</th>
+                </tr>
+                <tr>
+                    <td id="1"></td>
+                    <td id="2"></td>
+                    <td id="3"></td>
+                    <td id="4"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

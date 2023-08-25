@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.form form{
+    background-color: rgb(48, 47, 47);
+    display: grid;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+}
+.form form h1{
+    text-align: center;
+    color: rgb(19, 217, 19);
+}
+.form form .input_field label,input,select{
+    color: rgb(19, 217, 19);
+    font-size: 20px;
+    font-weight: bold;
+}
+.form form .input_field input,select,option{
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+}
+.btn input{
+    padding: 5px 20px;
+    background: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.table{
+    color: white;
+}
+.table table tr th{
+    padding: 20px 20px;
+    font-size: 24px;
+}
+.table table tr td{
+    padding: 20px 20px;
+    font-size: 20px;
+}
